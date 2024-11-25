@@ -22,7 +22,7 @@ exe.root_module.addImport("SimpleLinearRegression", SimpleLinearRegression.modul
 - Now, you can add the following code to `src/main.zig`:
 ```zig
 const std = @import("std");
-const SimpleLinearRegression = @import("SimpleLinearRegression.zig");
+const SimpleLinearRegression = @import("SimpleLinearRegression");
 
 pub fn main() void {
     const data = &.{
