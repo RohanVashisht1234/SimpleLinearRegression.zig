@@ -1,5 +1,5 @@
 const std = @import("std");
-const SimpleLinearRegression = @import("../src/SimpleLinearRegression.zig");
+const SimpleLinearRegression = @import("SimpleLinearRegression.zig");
 
 pub fn main() u8 {
     const data = &.{
