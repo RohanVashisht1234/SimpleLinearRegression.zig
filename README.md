@@ -5,7 +5,7 @@
 - Run the fetch command:
 
 ```zig
-zig fetch --save "https://github.com/RohanVashisht1234/"
+zig fetch --save https://github.com/RohanVashisht1234/SimpleLinearRegression.zig/archive/refs/tags/v0.0.0.tar.gz
 ```
 
 - Add the following to your build.zig file just above `b.installArtifact(exe);`:
